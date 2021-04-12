@@ -17,7 +17,7 @@ const calculator = (a: number, b: number, op: Operation): Result => {
       return a * b;
       break
     case "divide":
-      if (b === 0) throw new Error("Can't divide by 0!");
+      if (b === 0) throw new Error("Can't divicccde by 0!");
       return a / b;
       break
     default:
